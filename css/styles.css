@@ -1,0 +1,29 @@
+.body {
+    width: 1440px;
+    height: 696px;
+    padding: 24px 156px 24px 156px;
+    background: #ffffff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.gallery-item {
+    display: block;
+    flex: 1 1 calc(33.333% - 24px);
+    max-width: calc(33.333% - 24px);
+}
+
+.gallery-link {
+    display: block;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    display: block;
+}
